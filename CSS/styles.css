@@ -2,6 +2,11 @@
 
 /* 1Section */
 
+body {
+    font-family: 'Roboto';
+font-style: normal;
+}
+
 .main-order{
     background-color: #2E2F42;
 
@@ -10,8 +15,7 @@
 .main-orders{
     color: #FFFFFF;
 
-    font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -21,8 +25,7 @@ line-height: 1.07;
     color: #FFFFFF;
     background-color: #4D5AE5;
 
-    font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -35,8 +38,6 @@ border: none;
 .main-text{
     color: #2E2F42;
 
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -45,8 +46,6 @@ line-height: 1.2;
 .main-texts{
     color: #434455;
 
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -58,8 +57,6 @@ letter-spacing: 0.02em;
 .discrip-text{
     color: #2E2F42;
 
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.1;
@@ -78,8 +75,6 @@ ul{
 .team-head{
     color: #2E2F42;
 
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.1;
@@ -90,8 +85,6 @@ text-transform: capitalize;
 .team-heads{
     color: #2E2F42;
 
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -101,8 +94,6 @@ letter-spacing: 0.02em;
 .team-text{
     color: #434455;
 
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -177,7 +168,6 @@ text-decoration: none;
 .address{
     color: #434455;
 
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -192,8 +182,6 @@ text-decoration: none;
 color: #4D5AE5;
 background-color: #F4F4FD;
 
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 1.5;
@@ -207,8 +195,6 @@ border-radius: 4px;
 .headtext{
     color: #2E2F42;
 
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 600;
 font-size: 20px;
 line-height: 1.2;
@@ -216,13 +202,12 @@ line-height: 1.2;
 }
 
 .describtext{
-    color: #434455
+    color: #434455;
     
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.02em;
 }
 
 
@@ -231,9 +216,6 @@ line-height: 1.5;
 .footers{
 color: #E7E9FC;
 
-
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
