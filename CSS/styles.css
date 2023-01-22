@@ -1,11 +1,19 @@
-/*                   Studio                */
-
-/* 1Section */
+:root{
+    --primary-text-color: #2E2F42;
+    --secondary-text: #434455;
+}
 
 body {
     font-family: 'Roboto';
 font-style: normal;
 }
+
+
+/*                   Studio                */
+
+/* 1Section */
+
+
 
 .main-order{
     background-color: #2E2F42;
@@ -20,7 +28,7 @@ font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 }
-
+/*          button WebStudio */
 .order-button{
     color: #FFFFFF;
     background-color: #4D5AE5;
@@ -36,7 +44,7 @@ border: none;
 /*                                   One Section                             */
 
 .main-text{
-    color: #2E2F42;
+    color: var(--primary-text-color);
 
 font-weight: 500;
 font-size: 20px;
@@ -44,7 +52,7 @@ line-height: 1.2;
 }
 
 .main-texts{
-    color: #434455;
+    color: var(--secondary-text);
 
 font-weight: 400;
 font-size: 16px;
@@ -55,7 +63,7 @@ letter-spacing: 0.02em;
 /*                                 Two Section                        */
 
 .discrip-text{
-    color: #2E2F42;
+    color: var(--primary-text-color);
 
 font-weight: 700;
 font-size: 36px;
@@ -72,8 +80,13 @@ ul{
 
 /*                              section team                 */
 
+
+.team{
+    background-color: #F4F4FD;
+}
+
 .team-head{
-    color: #2E2F42;
+    color: var(--primary-text-color);
 
 font-weight: 700;
 font-size: 36px;
@@ -83,7 +96,7 @@ text-transform: capitalize;
 }
 
 .team-heads{
-    color: #2E2F42;
+    color: var(--primary-text-color);
 
 font-weight: 500;
 font-size: 20px;
@@ -92,7 +105,7 @@ letter-spacing: 0.02em;
 }
 
 .team-text{
-    color: #434455;
+    color: var(--secondary-text);
 
 font-weight: 400;
 font-size: 16px;
@@ -154,13 +167,21 @@ text-transform: uppercase;
 /*NavigationText */
 
 .navtext{
-    color: #2E2F42;
+    color: var(--primary-text-color);
 
-    font-family: 'Roboto', sans-serif;
 font-weight: 600;
 font-size: 16px;
 line-height: 1.5;
 text-decoration: none;
+}
+
+.navtext:hover,
+.navtext:focus{
+    color: #434455;
+}
+
+.navtext:active{
+    color: #4D5AE5;
 }
 
 /* Address */
@@ -175,18 +196,39 @@ text-decoration: none;
     text-decoration: none;
 }
 
+.address:hover,
+.address:focus{
+    color: #4D5AE5;
+
+}
+
 /*                            SectionOne                          */
 
-
+/* BUTTON */
 .buttonPort{
-color: #4D5AE5;
-background-color: #F4F4FD;
+color: white;
+background-color: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+cursor: pointer;
 
 font-weight: 600;
 font-size: 16px;
 line-height: 1.5;
 border:none;
 border-radius: 4px;
+/* border: 1px solid #E7E9FC; */
+}
+
+.buttonPort:hover,
+.buttonPort:focus{
+    background-color: #4D5AE5;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
+}
+.buttonPort:active{
+    background: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /*                        SectionTwo                               */
